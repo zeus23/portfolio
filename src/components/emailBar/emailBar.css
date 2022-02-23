@@ -1,0 +1,50 @@
+.email-container {
+    height: 100%;
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #0A192F;
+}
+
+.email-container .email-icon{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.email-container .email-icon span{
+    color: #ccd6f6;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+
+.email-container .email-icon:hover span{
+    color: #64ffda;
+}
+
+.email-container .v-line{
+    width: 1.5px;
+    height: 100px;
+    background-color: #64ffda;
+}
+
+/* for ipad, ipad mini and mobiles */
+@media screen and (max-width : 1025px){
+    .email-container{
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width : 769px) {
+    .email-container{
+        display: none;
+    }
+}

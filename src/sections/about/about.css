@@ -1,0 +1,373 @@
+.about-container {
+    width: 100%;
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.about-container .about-head {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background-color: yellow; */
+}
+
+.about-container .about-head span {
+    color: #64ffda;
+}
+
+.about-container .about-head h1{
+    font-size: 24px;
+    margin: 0;
+    color: #ccd6f6;
+    margin-left: 0.5rem;
+    margin-bottom: 5px;
+}
+
+.about-container .about-head .line {
+    width: 300px;
+    height: 0.5px;
+    background-color: #7792b0;
+    margin: 0 20px;
+}
+
+.about-container .about-content {
+    width: 100%;
+    display: flex;
+}
+
+.about-container .about-content .about-paragraph{
+    width: 50%;
+}
+
+.about-container .about-content .about-paragraph p {
+    color: #8892b0;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.about-container .about-content .about-techstack{
+    width: 50%;
+    padding:0 2rem;
+}
+
+
+
+.about-container .about-content .about-techstack .tech-frame {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #64ffda;
+    border-radius: 7px;
+    position: relative;
+}
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal{
+    width: 100%;
+    height: 100%;
+    background-color: #4A5568;
+    border-radius: 7px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 10px 30px -5px rgba(2,12,27,0.9);
+    /* padding: 1rem; */
+}
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal.animate{
+    animation: randomise 5s ease-in-out infinite alternate;
+}
+
+@keyframes randomise {
+    0% {
+        top: 20px;
+        left: 20px;
+    }
+    20% {
+        top: 0px;
+        left: 20px;
+    }
+    40%{
+        top: 0px;
+        left: -20px;
+    }
+    60%{
+        top: 20px;
+        left: -20px;
+    }
+}
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2D3748;
+    padding: 1rem;
+}
+
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-head .circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    
+}
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-head .circle.one{
+    background-color: #D9515D;
+}
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-head .circle.two{
+    background-color: #F4C025;
+    margin: 0 0.5rem;
+}
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-head .circle.three{
+    background-color: #3EC930;
+}
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body span {
+    color: #f5f7fa;
+}
+
+.about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body button {
+    display: none;
+}
+
+.about-container .technology-content {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container .technology-content .technology-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.about-container .technology-content .technology-head img {
+    width: 25px;
+    height: 25px;
+}
+
+.about-container .technology-content .technology-head h1 {
+    font-size: 18px;
+    margin: 0 0.5rem;
+    color: #ccd6f6;
+}
+
+.about-container .technology-content .technology-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about-container .technology-content .technology-body ul {
+    list-style: none;
+    padding: 0 35px;
+}
+
+.about-container .technology-content .technology-body ul li{
+    color: #64ffda;
+    margin-bottom: 1rem;
+}
+
+.about-container .technology-content .technology-body ul li span {
+    color: #64ffda;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:1025px) {
+    .about-container{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width : 821px){
+    .about-container{
+        padding: 0;
+    }
+    .about-container .about-head .line {
+        width: 150px;
+        height: 0.5px;
+        background-color: #7792b0;
+        margin: 0 20px;
+    }
+    .about-container .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-container .about-content .about-paragraph {
+        width: 100%;
+    }
+    .about-container .about-content .about-techstack{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .about-container .about-content .about-techstack .tech-frame{
+       width: 100%;
+        height: 400px;
+    }
+}
+
+/* media screen */
+@media screen and (max-width : 769px) {
+    .about-container{
+        padding: 0;
+    }
+
+    .about-container .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-container .about-content .about-paragraph{
+        width: 100%;
+    }
+
+    .about-container .about-content .about-paragraph p{
+        font-size: 16px;
+    }
+
+    .about-container .about-content .about-techstack {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame{
+        /* width: 300px; */
+        height: 400px;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal{
+        top: 10px;
+        left: 10px;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body span {
+        font-size: 13px;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body button {
+        display: block;
+        width: 70px;
+        height: 30px;
+        margin-bottom: 1rem;
+        border: 1.5px solid #64ffda;
+        background-color: transparent;
+        color: #64ffda;
+        border-radius: 5px;
+    }
+
+    .about-container .technology-content .technology-head h1 {
+        font-size: 16px;
+        margin: 0 0.5rem;
+        color: #ccd6f6;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .about-container {
+        padding: 0;
+    }
+
+    .about-container .about-head .line {
+        width: 150px;
+    }
+
+    .about-container .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-container .about-content .about-paragraph{
+        width: 100%;
+    }
+
+    .about-container .about-content .about-paragraph p{
+        font-size: 16px;
+    }
+
+    .about-container .about-content .about-techstack {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame{
+        /* width: 300px; */
+        height: 400px;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal{
+        top: 10px;
+        left: 10px;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body span {
+        font-size: 13px;
+    }
+
+    .about-container .about-content .about-techstack .tech-frame .tech-terminal .terminal-body button {
+        display: block;
+        width: 70px;
+        height: 30px;
+        margin-bottom: 1rem;
+        border: 1.5px solid #64ffda;
+        background-color: transparent;
+        color: #64ffda;
+        border-radius: 5px;
+    }
+
+    .about-container .technology-content .technology-head h1 {
+        font-size: 16px;
+        margin: 0 0.5rem;
+        color: #ccd6f6;
+    }
+
+    .about-container .technology-content .technology-body { 
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width : 380px) {
+
+    .about-container .about-head .line {
+        width: 100px;
+    }
+
+    .about-container .technology-content .technology-head h1 {
+        font-size: 14px;
+        margin: 0 0.5rem;
+        color: #ccd6f6;
+    }
+
+}

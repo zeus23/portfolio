@@ -1,0 +1,46 @@
+.social-container {
+    height: 100%;
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #0A192F;
+}
+
+.social-container .social-icon{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.social-container .social-icon span{
+    color: #ccd6f6;
+}
+
+.social-container .social-icon:hover span{
+    color: #64ffda;
+    transform: scale(1.1);
+}
+
+.social-container .v-line{
+    width: 2px;
+    height: 100px;
+    background-color: #64ffda;
+}
+
+/* for ipad, ipad mini and mobiles */
+@media screen and (max-width : 1025px){
+    .social-container{
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width : 769px) {
+    .social-container{
+        display: none;
+    }
+}

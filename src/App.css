@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@font-face {
+	font-family: "fira code";
+	src: url(./assets/fonts/fira/FiraCode-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: "Muli"; */
+	user-select: none;
+}
+
+span {
+	font-family: "fira code";
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	/* background-color: lightgray; */
+}
+
+.App{
+	background-color: #0A192F;
+	width:100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-container {
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main-container .middle-container{
+	width: 100%;
+	height: 100%;
+	padding: 3.5rem;
+	overflow-y: scroll;
+}	
+
+@media screen and (max-width : 450px) {
+    .main-container .middle-container{
+		width: 100%;
+		height: 100%;
+		/* border: 1px solid #a1a1a1; */
+		padding: 1.5rem;
+	}
+}
