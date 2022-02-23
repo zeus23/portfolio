@@ -146,10 +146,6 @@ const About = () => {
                     <ul>
                         <li>
                             <BiRightArrow size={12} />
-                            <span>Redux</span>
-                        </li>
-                        <li>
-                            <BiRightArrow size={12} />
                             <span>Figma</span>
                         </li>
                         <li>

@@ -33,9 +33,11 @@ const Navbar = () => {
                         )
                     })
                 }
-                <div className="menu-item resume-btn">
-                    <p>Resume</p>
-                </div>
+                <a href="https://drive.google.com/file/d/1AKT3mpgLz8UDdFREQomOIwiDY22JAnn9/view?usp=sharing" download target={'_blank'} rel="noopener noreferrer">
+                    <div className="menu-item resume-btn">
+                        <p>Resume</p>
+                    </div>
+                </a>
             </div>
 
             {/* Menu tab for mobile */}
