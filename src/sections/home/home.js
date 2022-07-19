@@ -11,7 +11,7 @@ const Home = () => {
                 <h2>I build things for web & mobile.</h2>
                 <p>I’m a software engineer specializing in building (and occasionally designing)<br />
                     exceptional digital experiences. Currently, I’m focused on building accessible,<br />
-                    human-centered products at Augend Tech.</p>
+                    human-centered products at Cloudbloom Systems LLP.</p>
                 <a href="#Contact">
                     <div className="connect-btn">
                         <span>Connect</span>

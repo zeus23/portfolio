@@ -3,7 +3,7 @@ import './experience.css';
 
 import { BiRightArrow } from 'react-icons/bi'
 
-const tabOptions = ['Augend Tech', 'Flappify', 'Trian Tech'];
+const tabOptions = ['Cloudbloom','Augend Tech', 'Flappify'];
 
 const Experience = () => {
 
@@ -36,7 +36,30 @@ const Experience = () => {
                         <>
                             <div className="experience-body">
                                 <h1>Software Developer  </h1>
-                                <span>March 2020 - present</span>
+                                <span>March 2022 - present</span>
+                                <ul>
+                                    <li>
+                                        <BiRightArrow size={24} color="#64ffda" />
+                                        <p>Write modern, performant, maintainable code for a diverse array of client and internal projects</p>
+                                    </li>
+                                    <li>
+                                        <BiRightArrow size={24} color="#64ffda" />
+                                        <p>Communicate with multi-disciplinary teams of engineers, designers and clients on a daily basis</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </>
+                        :
+                        null
+                }
+
+                {
+                    tab === 2
+                        ?
+                        <>
+                            <div className="experience-body">
+                                <h1>Software Developer  </h1>
+                                <span>March 2020 - February 2022</span>
                                 <ul>
                                     <li>
                                         <BiRightArrow size={24} color="#64ffda" />
@@ -64,7 +87,7 @@ const Experience = () => {
                 }
 
                 {
-                    tab === 2
+                    tab === 3
                         ?
                         <>
                             <div className="experience-body">
@@ -87,32 +110,6 @@ const Experience = () => {
                                     <li>
                                         <BiRightArrow size={24} color="#64ffda" />
                                         <p>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </>
-                        :
-                        null
-                }
-
-                {
-                    tab === 3
-                        ?
-                        <>
-                            <div className="experience-body">
-                                <h1>Full Stack Internship  </h1>
-                                <span>November 2017 - October 2018</span>
-                                <ul>
-                                    <li>
-                                        <BiRightArrow size={24} color="#64ffda" />
-                                        <p>Worked with senior developers and designers to build inventory
-                                            management system for a real estate construction firm using HTML, CSS, JavaScript and PHP.</p>
-                                    </li>
-                                    <li>
-                                        <BiRightArrow size={24} color="#64ffda" />
-                                        <p>Assisted with creating cross-platform UI web components and built small
-                                            responsive applications as well as company internal website using front-end
-                                            frameworks.</p>
                                     </li>
                                 </ul>
                             </div>
