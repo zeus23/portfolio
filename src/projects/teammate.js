@@ -28,7 +28,7 @@ const TeamMate = () => {
                         <p>TeamMate is a collaboration tool that organizes your projects into boards. In one glance, TeamMate tells you what's being worked on, who's working on what, and where something is in a process. This project is inspired by Trello. You can start a board from available templates that best suits your requirements.</p>
                     </div>
                     <span>React Firebase HTML & CSS</span>
-                    <a href="https://team-mate.netlify.app/" rel="noopener noreferrer" target="_blank" className="download-icon">
+                    <a href="https://team-mate.vercel.app/" rel="noopener noreferrer" target="_blank" className="download-icon">
                         <HiOutlineExternalLink size={22} />
                     </a>
                 </div>
@@ -42,7 +42,7 @@ const TeamMate = () => {
                     </p>
                 </div>
                 <span>React Firebase HTML & CSS</span>
-                <a href="https://team-mate.netlify.app/" rel="noopener noreferrer" target="_blank" className="download-icon">
+                <a href="https://team-mate.vercel.app/" rel="noopener noreferrer" target="_blank" className="download-icon">
                     <HiOutlineExternalLink size={22} />
                 </a>
             </div>

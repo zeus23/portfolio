@@ -3,7 +3,7 @@ import './experience.css';
 
 import { BiRightArrow } from 'react-icons/bi'
 
-const tabOptions = ['Cloudbloom','Augend Tech', 'Flappify'];
+const tabOptions = ['Cloudbloom', 'Augend Tech', 'Flappify'];
 
 const Experience = () => {
 
@@ -44,7 +44,11 @@ const Experience = () => {
                                     </li>
                                     <li>
                                         <BiRightArrow size={24} color="#64ffda" />
-                                        <p>Communicate with multi-disciplinary teams of engineers, designers and clients on a daily basis</p>
+                                        <p>Worked on a UK project, built the whole frontend of an app using react native.</p>
+                                    </li>
+                                    <li>
+                                        <BiRightArrow size={24} color="#64ffda" />
+                                        <p>Working & learning everyday.</p>
                                     </li>
                                 </ul>
                             </div>
