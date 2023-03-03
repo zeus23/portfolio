@@ -10,6 +10,7 @@ import Work from './sections/work/work';
 import Contact from './sections/contact/contact';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Featured from './sections/featured/featured';
 
 export const MenuContext = createContext(null);
 
@@ -39,6 +40,9 @@ function App() {
 					</div>
 					<div id="Experience">
 						<Experience />
+					</div>
+					<div id="Featured">
+						<Featured />
 					</div>
 					<div id="Work">
 						<Work />

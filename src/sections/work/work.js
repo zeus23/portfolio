@@ -21,7 +21,7 @@ const Work = () => {
     return (
         <div className="work-container">
             <div className="work-head">
-                <span>03.</span>
+                <span>04.</span>
                 <h1>Some Things I've Built</h1>
                 <div className="line"></div>
             </div>
