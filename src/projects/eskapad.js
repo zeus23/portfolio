@@ -28,7 +28,7 @@ const Eskapad = () => {
                         <p>A social media platform for business and organisers based in France and Côte d'Ivoire. Worked as a frontend engineer with remote team in france. App supports french and english language. Coming soon on Play store & App store</p>
                     </div>
                     <span>React Native &ensp; Node &ensp; Express &ensp; Mongo db</span>
-                    <a href="https://drive.google.com/file/d/1z02J-BYqB1Sik2DMQ76W1CBxrUixehU5/view?usp=sharing" download rel="noopener noreferrer" target="_blank" className="download-icon">
+                    <a href="https://apps.apple.com/in/app/eskapad/id1636653821" download rel="noopener noreferrer" target="_blank" className="download-icon">
                         <FiDownload size={22} />
                     </a>
                 </div>
@@ -40,7 +40,7 @@ const Eskapad = () => {
                     <p>A social media platform for business and organisers based in France and Côte d'Ivoire. Worked as a frontend engineer with remote team in france. App supports french and english language. Coming soon on Play store & App store</p>
                 </div>
                 <span>React Native &ensp; Node &ensp; Express &ensp; Mongo db</span>
-                <a href="https://drive.google.com/file/d/1z02J-BYqB1Sik2DMQ76W1CBxrUixehU5/view?usp=sharing" download rel="noopener noreferrer" target="_blank" className="download-icon">
+                <a href="https://apps.apple.com/in/app/eskapad/id1636653821" download rel="noopener noreferrer" target="_blank" className="download-icon">
                     <FiDownload size={22} />
                 </a>
             </div>

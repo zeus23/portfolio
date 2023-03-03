@@ -45,7 +45,7 @@ const About = () => {
 
                     <p>Fast-forward to today, I'm working at a start-up which provides web development and mobile app development solutions to clients from different domains. My main focus is to build accessible, inclusive products and digital experiences for a variety of clients.</p>
 
-                    <p>I have also been a part of remote team in France, Oman & Bangladesh as a front-end developer.</p>
+                    <p>I have also been a part of remote team in France, Oman & Bangladesh as a full-stack developer.</p>
                 </div>
 
                 <div className="about-techstack">

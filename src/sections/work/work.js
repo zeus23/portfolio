@@ -3,6 +3,7 @@ import './work.css';
 import Eskapad from "../../projects/eskapad";
 import Echo from "../../projects/echo";
 import TeamMate from "../../projects/teammate";
+import CryptoFox from "../../projects/cryptofox";
 const Work = () => {
 
     const handleMouseOver = (e) => {
@@ -30,6 +31,7 @@ const Work = () => {
                 {/* Eskapad */}
                 <Eskapad />
                 <Echo />
+                <CryptoFox />
                 <TeamMate />
             </div>
 
