@@ -28,7 +28,7 @@ const Echo = () => {
                         <p>A real-time chat application which takes inspiration from some very popular messaging apps. You can send audio, texts, stickers, images and gifs. Theme customisation available from lost of presets to choose from. Turn your image into text using text vision feature available only on echo.</p>
                     </div>
                     <span>React Native &ensp; Node &ensp; Express &ensp; Mongo db</span>
-                    <a href="https://drive.google.com/file/d/1_rybjAk61EtNqT2EN-k83EPboum_Cp-X/view?usp=sharing" download rel="noopener noreferrer" target="_blank" className="download-icon">
+                    <a href="https://drive.google.com/file/d/11BKhRZpV7SSqN_ytGD06C5a-OrMzTqH9/view?usp=sharing" download rel="noopener noreferrer" target="_blank" className="download-icon">
                         <FiDownload size={22} />
                     </a>
                 </div>

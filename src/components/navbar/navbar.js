@@ -33,7 +33,7 @@ const Navbar = () => {
                         )
                     })
                 }
-                <a href="https://drive.google.com/file/d/1kuocKbrYwm0xcUyIs76ODSh6pzWp4bEg/view?usp=share_link" download target={'_blank'} rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1sVaO8v7eZn_dcuf6Ow_vVMJZwnEw8Jd6/view?usp=sharing" download target={'_blank'} rel="noopener noreferrer">
                     <div className="menu-item resume-btn">
                         <p>Resume</p>
                     </div>
